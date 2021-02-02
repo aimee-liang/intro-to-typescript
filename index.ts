@@ -26,4 +26,8 @@ function multiply(x: number, y: number){
 }
 
 // strong type arrays
+const arr: string[] = []
 
+arr.push("Apples")
+arr.push("Bananas")
+// arr.push(12) /* this will not work because it is not a string */
